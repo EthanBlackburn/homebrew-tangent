@@ -1,25 +1,25 @@
 class TangentCli < Formula
   desc "The tangent-cli application"
   homepage "https://github.com/EthanBlackburn/tangent"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/tangent-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "934fcda898bed184033bac59a558679f1432cf75ec884aa2ffac0d4ea35187e0"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/tangent-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "75246a607b91ded9a6e26e3a943d83154d6ae10ef8011f9e5c0153ecc467310b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/tangent-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "8631c22d95a08e7ac9dca670f7d8fc71181840117cbd3096a8463a1da423555a"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/tangent-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "b8b85739d20bef50fb1feb2c9f037dbce297c2ebeacf6b39222a008083984d21"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/tangent-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3e594a17b85117f21053187b44cc39241a4923860c95f72cb9c0784a40ed7c75"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/tangent-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ae3e71d125a7bd1ffae9ec85405fb29b8d2bf5234c429549aaccfd643ad1863d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/tangent-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "de69e18818875eacf3626bd69f21f8c4d6afd539b6a69c12b488c3230c352780"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/tangent-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8debee34d968e0d769134019aa0f7f3f1e5dd6a7d7531563ac8fe4b2aead8d69"
     end
   end
 
