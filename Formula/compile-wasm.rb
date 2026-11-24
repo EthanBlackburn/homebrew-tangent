@@ -1,25 +1,25 @@
 class CompileWasm < Formula
   desc "The compile-wasm application"
   homepage "https://github.com/EthanBlackburn/tangent"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/compile-wasm-aarch64-apple-darwin.tar.xz"
-      sha256 "662a9c297bd16c00b044a535e1e886af0d719052c94f5f3720c14c99596b442f"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/compile-wasm-aarch64-apple-darwin.tar.xz"
+      sha256 "adabc109b1ff6c4925530c8ceca2f1b99cdf1c75dd2bbe0540ad172a01bf0df1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/compile-wasm-x86_64-apple-darwin.tar.xz"
-      sha256 "bbd83595107c894d38f26404091daebf48b593f604a6bd3a22b314cf2c2b8911"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/compile-wasm-x86_64-apple-darwin.tar.xz"
+      sha256 "96ceae9e92f1da9e5ba77fbb6cf2236ab6e314539c62f417cfd477ea924279b3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/compile-wasm-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6143a49fe31780f1f5f702c4811a3b7a243f3ebcc4ac3b8d55e2706d56ba2796"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/compile-wasm-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d20dd84bfbdd10f985abadf0f379f0e6859762e1d1b03505cf863cf6d1d32b2e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.2.0/compile-wasm-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b91e2bc5e82b477c0e92092c63a7abf51b813410e0c953766bb6d565d4e9d08c"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.0/compile-wasm-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0a09acff2c8ade9c7ae8f447844f57feb75a93fc2611eceaf7acdf4c4527053f"
     end
   end
 
