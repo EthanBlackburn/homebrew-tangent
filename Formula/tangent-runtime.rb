@@ -1,25 +1,25 @@
 class TangentRuntime < Formula
   desc "The tangent-runtime application"
   homepage "https://github.com/EthanBlackburn/tangent"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.1/tangent-runtime-aarch64-apple-darwin.tar.xz"
-      sha256 "899986595aa4b4c4ea514dd7a457dbb109714aba71b2b318f58b9fa411c00c99"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-runtime-aarch64-apple-darwin.tar.xz"
+      sha256 "7e9468019059b66d094dc6d207e5c5cb9c58a65a618da92e6da42cd6b7192c49"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.1/tangent-runtime-x86_64-apple-darwin.tar.xz"
-      sha256 "ac46fdc92dd931d257a09c5cb7d9b8d4d56eeba1b4fa486cb1e14644db5fd7f6"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-runtime-x86_64-apple-darwin.tar.xz"
+      sha256 "56be3293953a8d1a940b82891121d7e339f6cb29bcbcb07bddd70bc2fbd81874"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.1/tangent-runtime-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "831dc1b71ff68315f9364228320e8db0cf511979fa2ef7b4e803eba5d6223e0b"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-runtime-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3d34a9397f631f72d42954119b447eca64304991bd9f099884f06e9623d27375"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.1/tangent-runtime-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "acb337faf708f8b613f7df50642e677a3334e0ae4e4fc3bb167b443e70ce8b5b"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-runtime-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fcc5d73254a5303041398a7ed621340fe411c9a03f4197dc6fd4e48c24b47d74"
     end
   end
 
