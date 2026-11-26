@@ -1,25 +1,25 @@
 class TangentShared < Formula
   desc "The tangent-shared application"
   homepage "https://github.com/EthanBlackburn/tangent"
-  version "0.3.2"
+  version "0.3.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-shared-aarch64-apple-darwin.tar.xz"
-      sha256 "df9cf1db217d78a830bd59a54c3cd69fa86162add49a974ef409e8529e017216"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.3/tangent-shared-aarch64-apple-darwin.tar.xz"
+      sha256 "aa1f968ddb487bf87b2b2e5fdbfd8a7a12c72818968aa2404230257b6cce349f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-shared-x86_64-apple-darwin.tar.xz"
-      sha256 "798896a98bae17b53e4ab43221363a618e7501a1f2fcb118378a5d77cc5a7181"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.3/tangent-shared-x86_64-apple-darwin.tar.xz"
+      sha256 "d8a31c6d7dec0e0dbc14a4f1d14226635eb798de281209a10950ab0d3b4dc60c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-shared-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cda74b9416f73a49e96d0187eefd6deacb9cf1b3af14ade24570633885b3ddaa"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.3/tangent-shared-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cfd23eeb2902e5d467cc18cc4018009951d07f187d08e4526d2cf1cdf49ce8bc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.2/tangent-shared-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1ff195dd91ceb08e27125723aa62e068f8f7edd39f0e82182c7d16a1957edc5c"
+      url "https://github.com/EthanBlackburn/tangent/releases/download/v0.3.3/tangent-shared-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0617b48cfa1d914ce501f85aedc4d15609c2b1f598d671c7accb479826e53587"
     end
   end
 
